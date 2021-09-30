@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cadastro de Pedidos</string>
+    //tela de login/cadastro de usuario
+    <string name="title_active_login">Login</string>
+    <string name="title_active_cadastro_usuarios">Insira seus dados para cadastro</string>
+    <string name="email">Digite seu usuário ou email</string>
+    <string name="password">Digite sua senha</string>
+    <string name="login">Entrar</string>
+    <string name="salvar">Salvar</string>
+    <string name="google">Google</string>
+    <string name="cadastrar">Cadastrar</string>
+    //tela de usuário logado
+    <string name="logout">Sair</string>
+    <string name="usuario_logado">Usuário ja esta logado</string>
+    <string name="usuario_recepcao">Seja bem vindo</string>
+</resources>

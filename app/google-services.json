@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "821682332487",
+    "project_id": "crud-projeto-android-paaa",
+    "storage_bucket": "crud-projeto-android-paaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821682332487:android:078c4691861d1ff02c2262",
+        "android_client_info": {
+          "package_name": "com.aps.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBicQ5JIqOkPCcC-xjgXiQsG4zwPiTg168"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821682332487:android:cc5c12227f41f4882c2262",
+        "android_client_info": {
+          "package_name": "com.example.exercicio3loginfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBicQ5JIqOkPCcC-xjgXiQsG4zwPiTg168"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821682332487:android:b9398430538f39892c2262",
+        "android_client_info": {
+          "package_name": "com.exercicio2.paa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBicQ5JIqOkPCcC-xjgXiQsG4zwPiTg168"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821682332487:android:f95ad89ceae8466c2c2262",
+        "android_client_info": {
+          "package_name": "com.exercicio3.paa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBicQ5JIqOkPCcC-xjgXiQsG4zwPiTg168"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821682332487-gvgb6ohj3ln01k8jqcb0ei3mg3kdinfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
