@@ -4,6 +4,7 @@ import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.exercicio3loginfirebase.databinding.ActivityLoginBinding
@@ -46,6 +47,16 @@ class LoginActivity : AppCompatActivity() {
         binding.signInAppCompatButtonCadastrar.setOnClickListener {
             cadastrar()
         }
+
+         //Recuperar Senha
+        binding.signInAppCompatButtonRecuperarSenha.setOnClickListener {
+            recuperarSenha()
+        }
+    }
+
+    private fun recuperarSenha() {
+        val intent = Intent (this, ResetActivity::class.java)
+        this.startActivity(intent)
     }
 
     public override fun onStart() {

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.exercicio3loginfirebase">
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
@@ -11,6 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity android:name="com.example.exercicio3loginfirebase.MainActivity"></activity>
+        <activity android:name="com.example.exercicio3loginfirebase.ResetActivity"></activity>
         <activity android:name="com.example.exercicio3loginfirebase.CadastroActivity"></activity>
         <activity android:name="com.example.exercicio3loginfirebase.DetalheActivity"></activity>
         <activity android:name="com.example.exercicio3loginfirebase.CadastroUsuarioActivity"></activity>

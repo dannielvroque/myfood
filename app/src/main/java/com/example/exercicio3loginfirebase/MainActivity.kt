@@ -19,7 +19,7 @@ import com.google.firebase.ktx.Firebase
 import kotlin.collections.ArrayList
 import com.google.firebase.firestore.ktx.firestore
 
-class MainActivity : AppCompatActivity(), CadastroAdapter.OnItemClickListener{
+class MainActivity : AppCompatActivity(), CadastroAdapter.OnItemClickListener {
 
     private val REQ_CADASTRO = 1;
     private val REQ_DETALHE = 2;
