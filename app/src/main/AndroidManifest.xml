@@ -14,6 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity android:name="com.example.exercicio3loginfirebase.MainActivity"></activity>
+        <activity android:name="com.example.exercicio3loginfirebase.printer.PrintDialogActivity"></activity>
         <activity android:name="com.example.exercicio3loginfirebase.ResetActivity"></activity>
         <activity android:name="com.example.exercicio3loginfirebase.CadastroActivity"></activity>
         <activity android:name="com.example.exercicio3loginfirebase.DetalheActivity"></activity>

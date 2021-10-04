@@ -1,26 +1,34 @@
 package com.example.exercicio3loginfirebase
 
+import android.Manifest
+import android.bluetooth.BluetoothAdapter
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.exercicio3loginfirebase.model.CadastroPedidos
+import com.orhanobut.hawk.Hawk
 
 class DetalheActivity : AppCompatActivity(){
     companion object {
 
         const val RESULT_EDIT = 1
         const val RESULT_DELETE = 2
+        const val RESULT_PRINT = 3
     }
+
+    private lateinit var btPrint: BtPrint
 
     private lateinit var textoMesa: EditText
     private lateinit var textoNomeAtendente: EditText
     private lateinit var textoNomePedido: EditText
     private lateinit var textoDescricaoPedido: EditText
     private lateinit var keyFirebase: TextView
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

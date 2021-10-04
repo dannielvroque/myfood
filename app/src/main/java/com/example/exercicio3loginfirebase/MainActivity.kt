@@ -13,11 +13,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.exercicio3loginfirebase.adapter.CadastroAdapter
 import com.example.exercicio3loginfirebase.model.CadastroPedidos
+import com.example.exercicio3loginfirebase.printer.BluetoothPrinter
+import com.example.exercicio3loginfirebase.printer.PrintDialogActivity
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.ktx.Firebase
 import kotlin.collections.ArrayList
 import com.google.firebase.firestore.ktx.firestore
+import com.orhanobut.hawk.Hawk
 
 class MainActivity : AppCompatActivity(), CadastroAdapter.OnItemClickListener {
 
@@ -28,6 +31,7 @@ class MainActivity : AppCompatActivity(), CadastroAdapter.OnItemClickListener {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var view: CadastroAdapter
+    private var list: ArrayList<CadastroPedidos> = ArrayList()
     private lateinit var viewManager: RecyclerView.LayoutManager
     private val db = Firebase.firestore
 
@@ -66,7 +70,7 @@ class MainActivity : AppCompatActivity(), CadastroAdapter.OnItemClickListener {
             layoutManager = viewManager
             adapter = view
         }
-
+        initList()
     }
 
     override fun onItemClicked(view: View, position: Int) {
@@ -141,7 +145,29 @@ class MainActivity : AppCompatActivity(), CadastroAdapter.OnItemClickListener {
 
                 view.notifyDataSetChanged()
             }
+        } else if (requestCode == REQ_DETALHE) {
+            if (resultCode == DetalheActivity.RESULT_DELETE) {
+
+            }
         }
+    }
+
+    private fun initList(){
+        Hawk.init(this).build()
+
+        if( !Hawk.contains( "pedidos" ) ){
+            Hawk.put("pedidos", list)
+        }
+
+        list.addAll( Hawk.get("pedidos") )
+    }
+
+    fun print(view: View) {
+        val it = Intent(this, PrintDialogActivity::class.java)
+        //intent.putExtra("valorPagamento", valorPagamento.text)
+        Hawk.put("pedidos", list)
+        startActivity(it)
+
     }
 
     fun logout(view: View){

@@ -70,14 +70,17 @@
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:padding="16dp" />
+            android:padding="16dp"
+            />
 
         <TextView
             android:id="@+id/signInAppCompatButtonRecuperarSenha"
-            android:layout_width="144dp"
+            android:layout_width="259dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
             android:text="Recuperar Senha"
             android:textColor="#3F51B5"
             android:textFontWeight="20"

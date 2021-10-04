@@ -3,7 +3,7 @@
     //tela de login/cadastro de usuario
     <string name="title_active_login">Login</string>
     <string name="title_active_cadastro_usuarios">Insira seus dados para cadastro</string>
-    <string name="email">Digite seu usuário ou email</string>
+    <string name="email">Digite seu email</string>
     <string name="password">Digite sua senha</string>
     <string name="login">Entrar</string>
     <string name="recuperar_senha">Recuperar Senha</string>
